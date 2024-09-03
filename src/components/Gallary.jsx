@@ -52,7 +52,7 @@ function Gallery() {
 
           {/* 9: Image Slider */}
           <div ref={galleryRef} className="flex overflow-x-scroll overflow-hidden scrollbar-hide space-x-4">
-            {[...Array(6)].map((_, index) => (
+            {[...Array(3)].map((_, index) => (
               <div key={index} className="bg-gray-700 h-40 w-40 rounded-[16px] overflow-hidden flex-shrink-0">
                 <img
                   src={img}
